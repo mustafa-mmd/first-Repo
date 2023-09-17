@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>form creation</title>
+  </head>
+  <body>
+    <form action="http://www.example.com/login.php" method="post">
+      <fieldset>
+        <legend>personal information</legend>
+        <p>
+          first name
+          <input
+            type="text"
+            name="first name"
+            size="15"
+            maxlength="30"
+            required
+          />
+          last name
+          <input
+            type="text"
+            name="last name"
+            size="15"
+            maxlength="30"
+            required
+          />
+        </p>
+        <p>
+          gender
+          <br />
+          <input id="male" type="radio" name="gender" value="m" checked />male
+          <label for="male">male </label>
+          <label><input type="radio" name="gender" value="f" />femal</label>
+        </p>
+        <p>
+          date of birth
+          <input type="date" />
+        </p>
+        <p>
+          please enter your email address
+          <input type="email" name="email" />
+        </p>
+        <p>
+          please enter your website
+          <input type="url" name="profile" />
+        </p>
+        <p>
+          nationality
+          <select name="countries">
+            <option value="pakistan">pakistan</option>
+            <option value="uk">uk</option>
+            <option value="aus">austria</option>
+          </select>
+        </p>
+      </fieldset>
+      <p>
+        enter password
+        <input type="password" name="password" size="15" maxlength="20" />
+        <br />
+        <br />
+        re_enter password
+        <input type="password" name="password" size="20" maxlength="20" />
+      </p>
+      <p>
+        interest
+        <input type="checkbox" name="interest" value="male" />men cloths
+        <input type="checkbox" name="interest" value="women" />women cloths
+        <input type="checkbox" name="interest" value="watch" />
+      </p>
+      <p>
+        comment box
+        <br />
+        <textarea name="comment" rows="5" cols="20">
+enter your comment</textarea
+        >
+      </p>
+      <p>
+        upload profile pic
+        <input type="file" name="dp" />
+        <br />
+        <br />
+        <input type="submit" value="upload" />
+      </p>
+      <p>
+        <input type="submit" />
+      </p>
+    </form>
+  </body>
+</html>

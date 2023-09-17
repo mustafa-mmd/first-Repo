@@ -1,0 +1,50 @@
+/*change body bgcolor*/
+body{
+  background-color:lightblue
+}
+h1{
+  color:white;
+  text-align: center;
+  font-size: 50px;
+}
+/*change text style*/
+ p{
+  font-family:Verdana;
+  font-size: 40px;
+}
+p1{
+  color:red;
+  text-align:center;
+  font-size:30px;
+}
+/*now we use id selector*/
+#para2{
+text-align:center;
+color:red;
+}
+/*now we use class selector*/
+.center{
+  text-align:center;
+  color:red;
+}
+/*uses of color*/
+p2{
+  background-color: rgb(244, 234, 244);
+  color:black;
+  border: 50px;
+  border-color:black;
+  font-size: 25px;
+}
+h2{
+  background: goldenrod ;
+  text-align: center;
+  font-family: Verdana;
+  font-size: 20px;
+
+}
+h2{
+  border-style:dashed;
+  border-color: blue;
+  border-width: 5px;
+  
+}
